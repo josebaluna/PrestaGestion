@@ -8,8 +8,8 @@ except Exception as e:
     import urllib as parse
 
 
-api_url = 'http://s448296819.mialojamiento.es/api'
-api_key = 'Z9LUNFASYWMAISBXDYEUIWTX2RJYG2S4'
+api_url = ''
+api_key = ''
 format = 'JSON'
 
 # Resource to retrieve the empty schema
