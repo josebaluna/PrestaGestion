@@ -1,8 +1,9 @@
 # PrestaGestion
 Aplicación de escritorio para generación de tickets de venta y sincronización con PrestaShop a través de su Webservice API. Desarrollada en Python con interfaz gráfica (tkinter) y base de datos local (SQLite).
 
-📦 Funcionalidades
+![alt text](images/TPVApp.png)
 
+📦 Funcionalidades
 
 🎟️ Facturación
 Crear y generar tickets de venta
