@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite DB
+tickets.db
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# py2app
+*.app
+*.dmg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Configuración real (opcional si usas plantillas)
+config.ini
