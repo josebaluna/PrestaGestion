@@ -1,8 +1,8 @@
 import requests
 
 # Connection parameters to the webservice
-api_url = 'http://s448296819.mialojamiento.es/api'
-api_key = 'Z9LUNFASYWMAISBXDYEUIWTX2RJYG2S4'
+api_url = ''
+api_key = ''
 display = 'full'
 # Resource to retrieve the empty schema
 resource = 'orders'
