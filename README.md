@@ -3,6 +3,8 @@ Aplicación de escritorio para generación de tickets de venta y sincronización
 
 ![alt text](images/TPVApp.png)
 
+![alt text](images/ATPApp_config.png)
+
 📦 Funcionalidades
 
 🎟️ Facturación
