@@ -62,6 +62,7 @@ CREATE TABLE tickets (
     total_paid REAL,
     date_add DATETIME
 );
+
 📁 Estructura de Archivos
 bash
 Copiar
@@ -75,47 +76,33 @@ README.md            # Este archivo
 🛠️ Requisitos
 Python 3.8 o superior
 
-Módulos:
-
-tkinter
-
-sqlite3
-
-configparser
-
-requests (para la conexión con PrestaShop)
+Módulos: tkinter, sqlite3, configparser, requests (para la conexión API PrestaShop)
 
 Instalación de dependencias:
-
 bash
 Copiar
 Editar
 pip install requests
-🚀 Ejecución
-En Windows
-bash
-Copiar
-Editar
-python app.py
-Crear ejecutable:
 
+🚀 Ejecución
+Compilación en Ejecutable (opcional)
+Si deseas compilar la app como un ejecutable para distribución:
+
+Windows
 bash
 Copiar
 Editar
 pip install pyinstaller
-pyinstaller --onefile --windowed app.py
-En MacOS
-bash
-Copiar
-Editar
-python3 app.py
-Crear .app (opcional):
+pyinstaller --onefile --windowed main.py
 
+macOS
 bash
 Copiar
 Editar
-pip install py2app
-python3 setup.py py2app
+pip3 install pyinstaller
+pyinstaller --onefile --windowed main.py
+
+
 📌 Notas Adicionales
 Asegúrate de que la URL del Webservice de PrestaShop sea accesible y tenga permisos configurados.
 
